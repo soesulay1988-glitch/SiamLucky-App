@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Crown, ShieldCheck, Zap, Star, ArrowRight, CreditCard, 
   Copy, Check, QrCode, Upload, Headphones, Sparkles, 
   Shield, User, Calendar, RefreshCw
 } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from './contexts/LanguageContext';
 
 export const VIPUpgrade: React.FC = () => {
   const { t, language } = useLanguage();
